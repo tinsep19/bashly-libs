@@ -1,0 +1,10 @@
+password:
+  help: generate password
+  files:
+    - source: "lib/password.sh"
+      target: "%{user_lib_dir}/password.%{user_ext}"
+base64safe:
+  help: web safe base64 function
+  files:
+    - source: "lib/base64safe.sh"
+      target: "%{user_lib_dir}/base64safe.%{user_ext}"
